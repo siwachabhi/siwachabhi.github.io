@@ -1,0 +1,8 @@
+baseURL = 'https://siwachabhi.github.io/'
+languageCode = 'en-us'
+title = "Abhi's Blog"
+theme = 'paper'
+[params]
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
