@@ -2,3 +2,37 @@ baseURL = 'https://siwachabhi.github.io/'
 languageCode = 'en-us'
 title = "Abhi's Blog"
 theme = 'PaperMod'
+
+[languages.en]
+languageName = "English"
+weight = 1
+  [languages.en.taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+  [[languages.en.menu.main]]
+  name = "Archive"
+  url = "archives/"
+  weight = 5
+
+  [[languages.en.menu.main]]
+  name = "Search"
+  url = "search/"
+  weight = 10
+
+  [[languages.en.menu.main]]
+  name = "Tags"
+  url = "tags/"
+  weight = 10
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+  [params.homeInfoParams]
+  Title = "Hello there!"  
+  Content = "I blog about software development, movies, tv series, anime, f1..."
+    [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/abhimanyu-siwach/"
