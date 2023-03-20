@@ -28,12 +28,14 @@ theme = 'PaperMod'
     weight = 15
 
 [outputs]
-  home = [ "HTML", "RSS", "JSON" ]
+  home = ["HTML", "RSS", "JSON"]
 
 [params]
   description = "Abhi's Blog"
   env = "production"
+  keywords = ["blog", "software development", "personal", "abhimanyu siwach"]
   ShowShareButtons = true
+  ShareButtons = ["twitter", "linkedin", "reddit"]
   ShowReadingTime = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
