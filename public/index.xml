@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Abhi&#39;s Blog</title>
     <link>https://siwachabhi.github.io/</link>
@@ -8,13 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Mar 2023 14:21:40 -0700</lastBuildDate><atom:link href="https://siwachabhi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>https://siwachabhi.github.io/posts/hello-world/</link>
+      <title>Quick AWS Infrastructure automations with python boto3</title>
+      <link>https://siwachabhi.github.io/posts/quick-aws-infra-automation/</link>
       <pubDate>Sun, 19 Mar 2023 14:21:40 -0700</pubDate>
       
-      <guid>https://siwachabhi.github.io/posts/hello-world/</guid>
-      <description>Introduction Hello World! This is my blog.</description>
+      <guid>https://siwachabhi.github.io/posts/quick-aws-infra-automation/</guid>
+      <description>Introduction AWS is excellent to quickly protoype infrastructure proposals. We can access AWS console, manually spin up any service we want, experiment with it and spin it down. When moving to production, we can manage AWS infrastructure as code using CDK and keep it up to date with cloudformation deployments, ensuring software development CI/CD best practices.
+Problem There is an apparent gap between these two stages, if infrastructure to be setup is fairly complex and team wants to move very fast to production, to enable faster time to market.</description>
     </item>
+    
+    
     
   </channel>
 </rss>

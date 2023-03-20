@@ -4,35 +4,50 @@ title = "Abhi's Blog"
 theme = 'PaperMod'
 
 [languages.en]
-languageName = "English"
-weight = 1
+  languageName = "English"
+  weight = 1
+  
   [languages.en.taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
+    category = "categories"
+    tag = "tags"
+    series = "series"
 
   [[languages.en.menu.main]]
-  name = "Archive"
-  url = "archives/"
-  weight = 5
+    name = "Archive"
+    url = "archives/"
+    weight = 5
 
   [[languages.en.menu.main]]
-  name = "Search"
-  url = "search/"
-  weight = 10
+    name = "Search"
+    url = "search/"
+    weight = 10
 
   [[languages.en.menu.main]]
-  name = "Tags"
-  url = "tags/"
-  weight = 10
+    name = "Tags"
+    url = "tags/"
+    weight = 15
 
 [outputs]
-home = [ "HTML", "RSS", "JSON" ]
+  home = [ "HTML", "RSS", "JSON" ]
 
 [params]
+  description = "Abhi's Blog"
+  env = "production"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  
   [params.homeInfoParams]
-  Title = "Hello there!"  
-  Content = "I blog about software development, movies, tv series, anime, f1..."
-    [[params.socialIcons]]
+    Title = "Hello there!"  
+    Content = "I blog my opinions on software development, movies, tv series, anime, f1..."
+    
+  [[params.socialIcons]]
     name = "linkedin"
     url = "https://www.linkedin.com/in/abhimanyu-siwach/"
+
+  [params.editPost]
+    URL = "https://github.com/siwachabhi/siwachabhi.github.io/tree/main/content"
+    Text = "Suggest Changes"
+    appendFilePath = true
