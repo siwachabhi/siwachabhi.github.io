@@ -12,7 +12,7 @@ AWS is excellent to quickly protoype infrastructure proposals. We can access AWS
 There is an apparent gap between these two stages, if infrastructure to be setup is fairly complex and team wants to move very fast to production, to enable faster time to market. These are scenarios where manually creating all of the infrastructure is error prone and time consuming. On the other hand, auatomating using CDK/cloudaformation is too slow.
 
 ### Solution
-[Python boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) client provides excellent apis to access AWS control control plane. Python's fast scripting prowess and intuitive boto3 apis, opens up a middle ground to automate AWS infrastructure operations and still provide a faster time to market. Team can then eventually use CDK to automate complete infrastructure management and deployment.
+[Python boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) client provides excellent apis to access AWS control plane. Python's fast scripting prowess and intuitive boto3 apis, opens up a middle ground to automate AWS infrastructure operations and still provide a faster time to market. Team can then eventually use CDK to automate complete infrastructure management and deployment.
 
 # Example
 Consider a scenario of enabling cross vpc access for MSK via private link. Here is an [AWS blog](https://aws.amazon.com/blogs/big-data/how-goldman-sachs-builds-cross-account-connectivity-to-their-amazon-msk-clusters-with-aws-privatelink/), which explains the solution but in practice there are so many moving pieces that it becomes hard to even set this up once, to think if we have to perform the same setup in multiple regions/stages is daunting to say the least. 

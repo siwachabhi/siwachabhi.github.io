@@ -6,22 +6,31 @@
     <description>Recent content in Tags on Abhi&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Mar 2023 14:21:40 -0700</lastBuildDate><atom:link href="https://siwachabhi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Mar 2023 16:21:40 -0700</lastBuildDate><atom:link href="https://siwachabhi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>aws</title>
+      <link>https://siwachabhi.github.io/tags/aws/</link>
+      <pubDate>Sun, 19 Mar 2023 16:21:40 -0700</pubDate>
+      
+      <guid>https://siwachabhi.github.io/tags/aws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>networking</title>
+      <link>https://siwachabhi.github.io/tags/networking/</link>
+      <pubDate>Sun, 19 Mar 2023 16:21:40 -0700</pubDate>
+      
+      <guid>https://siwachabhi.github.io/tags/networking/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>automation</title>
       <link>https://siwachabhi.github.io/tags/automation/</link>
       <pubDate>Sun, 19 Mar 2023 14:21:40 -0700</pubDate>
       
       <guid>https://siwachabhi.github.io/tags/automation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>aws</title>
-      <link>https://siwachabhi.github.io/tags/aws/</link>
-      <pubDate>Sun, 19 Mar 2023 14:21:40 -0700</pubDate>
-      
-      <guid>https://siwachabhi.github.io/tags/aws/</guid>
       <description></description>
     </item>
     

@@ -40,8 +40,8 @@ theme = 'PaperMod'
   ShowPostNavLinks = true
   
   [params.homeInfoParams]
-    Title = "Hello there!"  
-    Content = "I blog my opinions on software development, movies, tv series, anime, f1..."
+    Title = "Hello there 👋"  
+    Content = "My name is Abhimanyu Siwach and I blog my opinions on software development, movies, music, anime, f1..."
     
   [[params.socialIcons]]
     name = "linkedin"
